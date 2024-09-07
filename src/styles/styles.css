@@ -1,0 +1,13 @@
+.bg {
+  background: url('../images/v996-005.jpg');
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  position: relative;
+}
+
+
+.views {
+  background-color: #2d2d2d46;
+}
+
