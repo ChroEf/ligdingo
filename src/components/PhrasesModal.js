@@ -15,7 +15,7 @@ import {
 
 const PhrasesModal = ({ isOpen, onClose, phrases, onSelected }) => {
   const [selectedPhrases, setSelectedPhrases] = useState([]);
-  const [countdown, setCountdown] = useState(300); // Initial timer set to 10 seconds
+  const [countdown, setCountdown] = useState(60); // Initial timer set to 10 seconds
 
   const handleCheckboxChange = (phrase) => {
     setSelectedPhrases((prevSelected) => {

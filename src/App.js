@@ -1,3 +1,10 @@
+if (process.env.NODE_ENV === 'production') {
+  console.log = function () {}; // Disable console.log
+  console.error = function () {}; // Disable console.error
+  console.warn = function () {}; // Disable console.warn
+}
+
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import TwitchLoginButton from './components/TwitchLoginButton';
